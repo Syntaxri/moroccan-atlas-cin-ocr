@@ -1,0 +1,32 @@
+# ─── Web Framework ───────────────────────────────────────────────────────────
+fastapi==0.111.0
+uvicorn[standard]==0.29.0
+python-multipart==0.0.9
+
+# ─── Database (async) ─────────────────────────────────────────────────────────
+sqlalchemy[asyncio]==2.0.30
+aiosqlite==0.20.0             # SQLite async driver (dev / default)
+asyncpg==0.29.0               # PostgreSQL async driver (prod, optional)
+alembic==1.13.1               # Schema migrations
+
+# ─── PDF Handling ─────────────────────────────────────────────────────────────
+pdfplumber==0.11.0
+PyMuPDF==1.24.2
+Pillow==10.3.0
+
+# ─── Image Preprocessing ──────────────────────────────────────────────────────
+opencv-python-headless==4.9.0.80
+numpy==1.26.4
+
+# ─── OCR ──────────────────────────────────────────────────────────────────────
+paddlepaddle==2.6.1
+paddleocr==2.7.3
+
+# ─── Data Validation ──────────────────────────────────────────────────────────
+pydantic==2.7.1
+python-dateutil==2.9.0
+
+# ─── Utilities ────────────────────────────────────────────────────────────────
+aiofiles==23.2.1
+loguru==0.7.2
+python-dotenv==1.0.1
